@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 851603471
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f66b7bfe78073050e36bc0b19eaa8ad3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 368757f1909e0d42f145767ce986426a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 363
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.BoolParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ClampedFloatParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ClampedIntParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ColorParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.MinFloatParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.TextureParameter
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.DownscaleParameter
+Assets:
+- Assets/Project/VRDart/Scenes/Dart/Bloom Profile.asset
+- Assets/Project/VRDart/Scenes/Dart/OcclusionCullingData.asset
+- Assets/Project/VRDart/Scenes/Dart/Lightmap-2_comp_light.exr
+- Assets/Project/VRDart/Scenes/Dart/Lightmap-0_comp_light.exr
+- Assets/Project/VRDart/Scenes/Dart/ReflectionProbe-0.exr
+- Assets/Project/VRDart/Scenes/Dart/ReflectionProbe-1.exr
+- Assets/Project/VRDart/Scenes/Dart/Lightmap-1_comp_light.exr
+Dependencies: []

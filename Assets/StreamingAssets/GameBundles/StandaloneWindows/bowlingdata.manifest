@@ -1,0 +1,78 @@
+ManifestFileVersion: 0
+CRC: 3112643664
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5e0f5cac8dd457b2ffb009168ebb5411
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 368757f1909e0d42f145767ce986426a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 363
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.BoolParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ClampedFloatParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ClampedIntParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ColorParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.MinFloatParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.TextureParameter
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.DownscaleParameter
+Assets:
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-22_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-18_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-30_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-23_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/ReflectionProbe-1.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-3_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-8_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-19_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-16_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-20_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-2_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-25_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-14_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-1_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-5_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-7_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-32_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-33_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-9_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-11_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-21_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-4_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-26_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-27_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-31_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-17_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-28_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/ReflectionProbe-0.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-13_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-6_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-29_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-24_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-12_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-15_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/OcclusionCullingData.asset
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-10_comp_light.exr
+- Assets/Project/VRBowling/Scenes/Bowling/Bloom Profile.asset
+- Assets/Project/VRBowling/Scenes/Bowling/Lightmap-0_comp_light.exr
+Dependencies: []

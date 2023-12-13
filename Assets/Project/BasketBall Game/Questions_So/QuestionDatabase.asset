@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3286de59b828a4eada54209813846aea, type: 3}
+  m_Name: QuestionDatabase
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: 'What is the agreed SLA for solving the Minor  Snags, Chose one
+      option from the following:'
+    options:
+    - a) 1 Month
+    - b) 2 Month
+    - c) 2 Weeks
+    - d) As approved by Head of Section.
+    correctOptionIndex: 0
+  - questionText: 'Which snag is required to sign The Risk Memo, please choose one
+      option from the following:'
+    options:
+    - a) Critical
+    - b) Critical & Major
+    - c) Major
+    - d) Minor
+    correctOptionIndex: 0
+  - questionText: Which team is authorised to release FAC  for Vendors
+    options:
+    - a) Service Implementation
+    - b) Technology Planning
+    - c) Service Transition and Performance
+    - d) IT delivery
+    correctOptionIndex: 2
+  - questionText: Which tool is used to register the project with Technology Operations
+      for Handover.
+    options:
+    - 'a) Maximo '
+    - b) HPSM tool
+    - c) Jira
+    - d) Sharepoint portal
+    correctOptionIndex: 0
+  - questionText: Who is responsible for addressing snags/observations highlighted
+      by Operations during validation/ATP?
+    options:
+    - a) Service delivery/ IT delivery
+    - b) Technology planning
+    - d) Vendor
+    - d) None of above
+    correctOptionIndex: 0
+  - questionText: 'Which CR category is required to raise a planned change with Service
+      Impact:'
+    options:
+    - a) Normal - SA
+    - 'b) Fast Track '
+    - c) Emergency - E4
+    - d) Normal - NSA
+    correctOptionIndex: 0
+  - questionText: 'What is the agreed SLA for Emergency-E4 CR:'
+    options:
+    - 'a) 48 Hours '
+    - b) 12 Hours
+    - c) 24 Hours
+    - d) 10 Hours
+    correctOptionIndex: 2
+  - questionText: 'How many CR category types are there in the Technology Change
+      Management Process:'
+    options:
+    - a) 3
+    - b) 4
+    - c) 5
+    - d) 6
+    correctOptionIndex: 0
+  - questionText: 'What is the Overall status of the CR required to start the activity:'
+    options:
+    - a) Pending
+    - b) Returned (Information Required)
+    - c) Implemented and Closed
+    - d) None of above
+    correctOptionIndex: 2
+  - questionText: 'What is the cutoff time for raising the RFC In the Technology
+      Change Management Process:'
+    options:
+    - a) 7:30 PM
+    - b) 6:30 PM
+    - c) 3:30 PM
+    - d) 4:30 PM
+    correctOptionIndex: 2
+  - questionText: When there is a full-service outage, which severity of TT should
+      be opened?
+    options:
+    - a) P2
+    - b) P1
+    - c) P3
+    - d) P4
+    correctOptionIndex: 1
+  - questionText: What is the name of HPSM Resolver group name for FAN Team ?
+    options:
+    - "a) Core \u2013 Wireless"
+    - b) NOC
+    - c) Fixed Access Network
+    - d) NOC - FAN
+    correctOptionIndex: 3
+  - questionText: When there are 30 or more enterprise customers impacted then which
+      severity of TT should be opened?
+    options:
+    - a) P1
+    - b) P2
+    - c) P3
+    - d) P4
+    correctOptionIndex: 1
+  - questionText: What is the name of HPSM Resolver group name of SoC IP Transport
+      team?
+    options:
+    - a) ITAC - CF
+    - "b) Civil & EM \u2013 Fixed - DXB"
+    - "c) FLM \u2013 Fiber Maintenance"
+    - "d) NOC \u2013 IP Transport"
+    correctOptionIndex: 3
+  - questionText: Which criteria should be met to release project Boarding
+    options:
+    - 'a) Acceptance test verification completion '
+    - b) All approval  from concerns stakeholders are secured and submitted
+    - 'c) ACRs approved & solution documentation '
+    - d) All of the above
+    correctOptionIndex: 3
+  - questionText: 'How does a Change Management process help in risk mitigation:'
+    options:
+    - a)  By avoiding all changes
+    - b) By implementing changes without assessment
+    - c) By identifying and addressing potential risks
+    - d) By ignoring the impact of changes on stakeholders
+    correctOptionIndex: 2
+  - questionText: During the planning phase of Technology Change Management, what
+      is a Technology Impact Assessment used for?
+    options:
+    - 'a) To evaluate the success of implemented technology changes  '
+    - 'b) To identify and assess potential risks associated with the technology change  '
+    - 'c) To initiate a technology change request  '
+    - d) To document completed technology changes
+    correctOptionIndex: 3

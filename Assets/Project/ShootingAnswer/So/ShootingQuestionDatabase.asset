@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3286de59b828a4eada54209813846aea, type: 3}
+  m_Name: ShootingQuestionDatabase
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: What is the capital of Australia?
+    options:
+    - a) Sydney
+    - b) Melbourne
+    - c) Canberra
+    - d) Brisbane
+    correctOptionIndex: 2
+  - questionText: Who wrote the play "Romeo and Juliet"?
+    options:
+    - a) William Shakespeare
+    - b) Charles Dickens
+    - c) Jane Austen
+    - d) F. Scott Fitzgerald
+    correctOptionIndex: 0
+  - questionText: Who painted the famous artwork "Mona Lisa"?
+    options:
+    - a) Vincent van Gogh
+    - b) Leonardo da Vinci
+    - c) Pablo Picasso
+    - d) Michelangelo
+    correctOptionIndex: 1
+  - questionText: Which planet is known as the "Red Planet"?
+    options:
+    - a) Jupiter
+    - b) Mars
+    - c) Venus
+    - d) Saturn
+    correctOptionIndex: 1
+  - questionText: What is the largest mammal in the world?
+    options:
+    - a) Elephant
+    - b) Giraffe
+    - d) Hippopotamus
+    - d) Saturn
+    correctOptionIndex: 2
+  - questionText: What is the chemical symbol for gold?
+    options:
+    - a) Au
+    - b) Go
+    - c) Gl
+    - d) Gd
+    correctOptionIndex: 0
+  - questionText: Which country is known as the Land of the Rising Sun?
+    options:
+    - a) China
+    - b) India
+    - c) Japan
+    - d) South Korea
+    correctOptionIndex: 2
+  - questionText: What is the capital city of Canada?
+    options:
+    - a) Vancouver
+    - b) Toronto
+    - c) Ottawa
+    - d) Montreal
+    correctOptionIndex: 2
+  - questionText: Which planet in our solar system has the most moons?
+    options:
+    - a) Saturn
+    - b) Jupiter
+    - c) Uranus
+    - d) Neptune
+    correctOptionIndex: 1
+  - questionText: What is the tallest mountain in the world?
+    options:
+    - a) Mount Kilimanjaro
+    - b) Mount Everest
+    - c) K2 (Mount Godwin-Austen)
+    - d) Mount McKinley (Denali)
+    correctOptionIndex: 1

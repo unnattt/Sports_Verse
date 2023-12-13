@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2025155066
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 415015adcd7cd7e80d6f4f33cb0947ca
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c0ff923d44eb8f68679063de7a325945
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Project/Archery VR/Scenes/ArcheryVR/Lightmap-2_comp_dir.png
+- Assets/Project/Archery VR/Scenes/ArcheryVR/Lightmap-2_comp_light.exr
+- Assets/Project/Archery VR/Scenes/ArcheryVR/Lightmap-3_comp_dir.png
+- Assets/Project/Archery VR/Scenes/ArcheryVR/Lightmap-3_comp_light.exr
+- Assets/Project/Archery VR/Scenes/ArcheryVR/ReflectionProbe-0.exr
+- Assets/Project/Archery VR/Scenes/ArcheryVR/Lightmap-0_comp_light.exr
+- Assets/Project/Archery VR/Scenes/ArcheryVR/Lightmap-0_comp_dir.png
+- Assets/Project/Archery VR/Scenes/ArcheryVR/Lightmap-1_comp_light.exr
+- Assets/Project/Archery VR/Scenes/ArcheryVR/Lightmap-1_comp_dir.png
+Dependencies: []

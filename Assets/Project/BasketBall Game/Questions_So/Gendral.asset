@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3286de59b828a4eada54209813846aea, type: 3}
+  m_Name: Gendral
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: 'What is the agreed SLA for solving the Minor  Snags, Chose one
+      option from the following:'
+    options:
+    - a) 1 Month
+    - b) 2 Month
+    - c) 2 Weeks
+    - d) As approved by Head of Section.
+    correctOptionIndex: 0
+  - questionText: 'Which snag is required to sign The Risk Memo, please choose one
+      option from the following:'
+    options:
+    - a) Critical
+    - b) Critical & Major
+    - c) Major
+    - d) Minor
+    correctOptionIndex: 0
+  - questionText: Which team is authorised to release FAC  for Vendors
+    options:
+    - a) Service Implementation
+    - b) Technology Planning
+    - c) Service Transition and Performance
+    - d) IT delivery
+    correctOptionIndex: 2
+  - questionText: Which criteria should be met to release project Boarding
+    options:
+    - 'a) Acceptance test verification completion '
+    - b) All approval  from concerns stakeholders are secured and submitted
+    - 'c) ACRs approved & solution documentation '
+    - d) All of the above
+    correctOptionIndex: 3
+  - questionText: Which tool is used to register the project with Technology Operations
+      for Handover.
+    options:
+    - 'a) Maximo '
+    - b) HPSM tool
+    - c) Jira
+    - d) Sharepoint portal
+    correctOptionIndex: 0
+  - questionText: Who is responsible for addressing snags/observations highlighted
+      by Operations during validation/ATP?
+    options:
+    - a) Service delivery/ IT delivery
+    - b) Technology planning
+    - d) Vendor
+    - d) None of above
+    correctOptionIndex: 0

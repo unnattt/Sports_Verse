@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 925303402
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: basketball
+      Dependencies:
+        Dependency_0: basketballdata
+    Info_1:
+      Name: cricketvr
+      Dependencies:
+        Dependency_0: cricketvrdata
+    Info_2:
+      Name: archeryvrdata
+      Dependencies: {}
+    Info_3:
+      Name: dartdata
+      Dependencies: {}
+    Info_4:
+      Name: archeryvr
+      Dependencies:
+        Dependency_0: archeryvrdata
+    Info_5:
+      Name: bowlingdata
+      Dependencies: {}
+    Info_6:
+      Name: dart
+      Dependencies:
+        Dependency_0: dartdata
+    Info_7:
+      Name: basketballdata
+      Dependencies: {}
+    Info_8:
+      Name: cricketvrdata
+      Dependencies: {}
+    Info_9:
+      Name: bowling
+      Dependencies:
+        Dependency_0: bowlingdata

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3286de59b828a4eada54209813846aea, type: 3}
+  m_Name: management
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: When there is a full-service outage, which severity of TT should
+      be opened?
+    options:
+    - a) P2
+    - b) P1
+    - c) P3
+    - d) P4
+    correctOptionIndex: 1
+  - questionText: What is the name of HPSM Resolver group name for FAN Team ?
+    options:
+    - "a) Core \u2013 Wireless"
+    - b) NOC
+    - c) Fixed Access Network
+    - d) NOC - FAN
+    correctOptionIndex: 3
+  - questionText: When there are 30 or more enterprise customers impacted then which
+      severity of TT should be opened?
+    options:
+    - a) P1
+    - b) P2
+    - c) P3
+    - d) P4
+    correctOptionIndex: 1
+  - questionText: What is the name of HPSM Resolver group name of SoC IP Transport
+      team?
+    options:
+    - a) ITAC - CF
+    - "b) Civil & EM \u2013 Fixed - DXB"
+    - "c) FLM \u2013 Fiber Maintenance"
+    - "d) NOC \u2013 IP Transport"
+    correctOptionIndex: 3

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 120598794
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a433aa117a4aee3b56436f5f332abc61
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4099b5dbdcae6fc170d91e6110c08827
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 363
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Project/BasketBall Game/Scene/Basketball/Global Volume (1) Profile.asset
+- Assets/Project/BasketBall Game/Scene/Basketball/OcclusionCullingData.asset
+Dependencies: []
