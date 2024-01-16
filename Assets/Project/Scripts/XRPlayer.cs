@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using Yudiz.BaseFramework;
 
-public class XRPlayer : Singleton<XRPlayer>
+public class XRPlayer : Yudiz.BaseFramework.Singleton<XRPlayer>
 {
     [SerializeField] private InputActionReference rightJoystickInputAction;
     [SerializeField] private Animator characterAnimator;

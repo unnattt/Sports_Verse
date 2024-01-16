@@ -19,6 +19,7 @@ TagManager:
   - Pin
   - PinTop
   - Surface
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -45,7 +46,7 @@ TagManager:
   - Pin
   - Arrow
   - BowlingEnviroment
-  - 
+  - Ball
   - 
   - 
   - 

@@ -66,7 +66,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -88813173101546483, guid: 00e4d981b347dfd47a74d709fca48aca, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 00e4d981b347dfd47a74d709fca48aca, type: 3}
       propertyPath: m_Name
@@ -74,7 +74,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 00e4d981b347dfd47a74d709fca48aca, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 00e4d981b347dfd47a74d709fca48aca, type: 3}
       propertyPath: m_TagString
@@ -273,7 +273,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1e0189ca2190f44a4c40e4c9fcf1bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionDatabase: {fileID: 11400000, guid: 61b8228a07513430a93b603149a625c8, type: 2}
 --- !u!114 &5190991339964016722
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -19,13 +19,15 @@ public class GoalDecisionCollider : MonoBehaviour
             
             if (optionAnswer)
             {
+                // ball.transform.GetComponent<Rigidbody>().velocity = Vector3.zero;
+                // ball.transform.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
                 ball.transform.DOMove(netCenterPoint.position, 0.2f);
             }
             else
             {
                 //ball.transform.DOMove(netCenterPoint.position + new Vector3(1, 1,1), 0.2f);
-                Vector3 posibility1 = new Vector3(Random.Range(1,3), Random.Range(1, 3), Random.Range(1, 3));
-                Vector3 posibility2 = new Vector3(Random.Range(-3, -1), Random.Range(-3, -1), Random.Range(-3, -1));
+                Vector3 posibility1 = new Vector3(Random.Range(2,4), Random.Range(2, 4), Random.Range(2, 4));
+                Vector3 posibility2 = new Vector3(Random.Range(-4, -2), Random.Range(-4, -2), Random.Range(-4, -2));
 
                 int randomIndex = Random.Range(0, 2);
 

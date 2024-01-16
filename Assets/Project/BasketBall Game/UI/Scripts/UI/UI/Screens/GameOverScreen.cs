@@ -1,10 +1,8 @@
-using System.Threading.Tasks;
 using DG.Tweening;
 using TMPro;
 using UISystem;
 using UnityEngine;
 using UnityEngine.UI;
-using Yudiz.BaseFramework;
 using Yudiz.VRBasketBall.Core;
 
 namespace Yudiz.VRBasketBall.UI
@@ -42,23 +40,19 @@ namespace Yudiz.VRBasketBall.UI
 		private void OnReplayBtnClicked()
 		{
 			replay_Btn.interactable = false;
-			//transform.DOScaleY(0, 0.5f)
-			//.OnComplete(() => {
-			//await Task.Delay(1000);
-			this.Hide();
+			transform.DOScaleY(0, 0.5f)
+			.OnComplete(() => {
 				ViewController.Instance.ShowPopup(PopupName.ChooseQuestionsCatogoryScreen);
 				//ViewController.Instance.ChangeView(ScreenName.GamePlayScreen); Events.onGameplayStart?.Invoke();
-			//});
+			});
 		}
 		private void OnQuitBtnClicked()
 		{
-			//transform.DOScale(0, 1f)
-			//.SetEase(Ease.InBounce) // Use OutBounce easing for the bouncy effect
-			//.SetUpdate(true) // Ensure that the tween updates even when Time.timeScale is 0
-			//.SetLoops(1)
-			//.OnComplete(() => { Application.Quit(); });
-			SceneHandler.Instance.LoadScene(SceneHandler.Instance.mainScene, null);
-
+			transform.DOScale(0, 1f)
+			.SetEase(Ease.InBounce) // Use OutBounce easing for the bouncy effect
+			.SetUpdate(true) // Ensure that the tween updates even when Time.timeScale is 0
+			.SetLoops(1)
+			.OnComplete(() => { Application.Quit(); });
 		}
 		private void SetCanvasPosition()
 		{
@@ -79,8 +73,8 @@ namespace Yudiz.VRBasketBall.UI
 		public override void Show()
 		{
 			base.Show();
-			//transform.localScale = Vector3.zero;
-			//transform.DOScale(Vector3.one,0.3f);
+			transform.localScale = Vector3.zero;
+			transform.DOScale(new Vector3(0.003f,0.003f,0.003f),0.3f);
 			//transform.DOScale(canvasScale,1f)
 			//.SetEase(Ease.OutBounce) // Use OutBounce easing for the bouncy effect
 			//.SetUpdate(true) // Ensure that the tween updates even when Time.timeScale is 0
@@ -96,7 +90,7 @@ namespace Yudiz.VRBasketBall.UI
 		}
 		public override void Hide()
 		{
-			//transform.DOScale(Vector3.zero, 0.3f);
+			transform.DOScale(Vector3.zero, 0.3f);
 			//transform.DOScale(0, 1f)
 			//.SetEase(Ease.InBounce) // Use OutBounce easing for the bouncy effect
 			//.SetUpdate(true) // Ensure that the tween updates even when Time.timeScale is 0

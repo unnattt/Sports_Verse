@@ -1,21 +1,11 @@
 ManifestFileVersion: 0
-CRC: 2378114066
+CRC: 862540619
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: basketball
       Dependencies:
         Dependency_0: basketballdata
-        Dependency_1: shootingrangedata
     Info_1:
       Name: basketballdata
       Dependencies: {}
-    Info_2:
-      Name: shootingrange
-      Dependencies:
-        Dependency_0: basketballdata
-        Dependency_1: shootingrangedata
-    Info_3:
-      Name: shootingrangedata
-      Dependencies:
-        Dependency_0: basketballdata

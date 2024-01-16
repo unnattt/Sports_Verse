@@ -1,8 +1,6 @@
 using UnityEngine;
 
 using Yudiz.ShootingGame.Prefabs;
-using Yudiz.ShootingGame.Manager;
-using Yudiz.ShootingGame.Utilities;
 
 namespace Yudiz.ShootingGame.Gun
 {
